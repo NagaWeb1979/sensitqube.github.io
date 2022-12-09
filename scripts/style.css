@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(https://cdn.glitch.global/0c0c2500-a5ab-472c-802d-4e1d832569ff/Sensit%20%20Cube%202.png?v=1669208947783);
+  height: 100vh;
+  width: 175vh;
+  background-size: cover;
+  background-position: center;
+}
+
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(132, 213, 243);
+  padding: 5px 20px;
+  border: 1px solid rgb(1, 52, 52);
+  transition: 0.9s ease;
+}
+
+ul li a:hover {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+ul li.active a {
+  background-color: #fff;
+  color: rgb(0, 0, 0);
+}
+
+.logo img {
+  float: left;
+  width: 190px;
+  height: auto;
+}
+
+.main {
+  max-width: 1450px;
+  margin: auto;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.title h1 {
+  color: #fffdfd;
+  font-size: 70px;
+  text-align: center;
+}
+
+.button {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  border: 1px solid rgb(1, 77, 77);
+  padding: 10px 30px;
+  color: rgb(132, 213, 243) ;
+  text-decoration: none;
+  transition: 0.9s ease;
+}
+
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: #000;
+}
+
+.logo img {
+  float: left;
+  width: 190px;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+input {
+  height: 45px;
+  width: 100px;
+}
+
+table {
+  margin: 25px 0;
+  width: 90%;
+  background-color: #f2f2f2;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+}
+
+table,
+th,
+td {
+  border: 1px solid;
+}
+
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+  text-align: center;
+}
+
