@@ -8,7 +8,6 @@ header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(https://cdn.glitch.global/ec99c1d4-28c3-4d0a-a72e-fbe13a75e25b/Screenshot%202022-12-07%20at%2010.59.57%20PM.png?v=1670425210528);
   height: 580vh;
-  width: 208vh;
   background-size: cover;
   background-position: center;
 }
